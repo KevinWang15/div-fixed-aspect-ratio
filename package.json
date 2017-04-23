@@ -1,0 +1,31 @@
+{
+  "name": "div-fixed-aspect-ratio",
+  "version": "0.0.1",
+  "description": "Turn a div into any aspect ratio you specify. Unconventional but effective hack, no obscure css, supports all css units, supports max/min-width/media query, doesn't rely on JS watchers or callbacks.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevinWang15/div-fixed-aspect-ratio.git"
+  },
+  "keywords": [
+    "ratio",
+    "proportion",
+    "aspect ratio",
+    "resize",
+    "resizing"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^2.4.1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
