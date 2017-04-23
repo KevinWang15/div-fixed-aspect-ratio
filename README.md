@@ -6,7 +6,7 @@ div-fixed-aspect-ratio
 
 Turn a div into any aspect ratio you specify. Unconventional but effective hack, no obscure css, supports all css units, supports max/min-width/media query, doesn't rely on JS watchers or callbacks.
 # Demo
-[Check out the demo!]()
+[Check out the demo!](https://rawgit.com/KevinWang15/div-fixed-aspect-ratio/master/dist/demo.html)
 
 # How it works
 It generates an image with certain aspect ratio in memory, uses the image to make the browser calculate the width/height of the element and recalculate & apply them automatically when resized (keeping the aspect ratio).
